@@ -1,0 +1,62 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9vCkDNtL7wL4I_D2nA1ytMFY5mhQ8ss8qAGu92pPvvg&s=10");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.data {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #3b0101;
+}
+
+#todo-input {
+    font-size: 20px;
+    padding: 10px;
+    min-width: 250px;
+    margin-bottom: 10px;
+}
+
+.Buttons {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #790000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 300px;
+}
+
+#todo-list li {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.del-btn {
+    background-color: #790000;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
