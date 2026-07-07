@@ -1,12 +1,12 @@
 body {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9vCkDNtL7wL4I_D2nA1ytMFY5mhQ8ss8qAGu92pPvvg&s=10");
-    background-size: cover; 
+    background-size: cover;
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* or whatever height you need */
+    height: 60vh;
 }
 
 .data {
@@ -16,13 +16,15 @@ body {
     text-shadow: 2px 2px 4px #3b0101;
 }
 
-
-#count-el {
-    font-size: 100px;
+#todo-input {
+    font-size: 20px;
+    padding: 10px;
+    min-width: 250px;
+    margin-bottom: 10px;
 }
 
 .Buttons {
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px 20px;
     background-color: #790000;
     color: white;
@@ -30,9 +32,31 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 300px;
 }
 
-increment-btn:hover {
-    background-color: #000000;
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 300px;
+}
+
+#todo-list li {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.del-btn {
+    background-color: #790000;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 10px;
 }

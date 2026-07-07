@@ -4,29 +4,13 @@
 </head>
 
 <body>
-  <h1 class = "data"> People Enterted </h1>
-  <h2 class="data" id="count-el">0</h2>
-  <button class="Buttons" onclick="increment()">Increment</button>
- 
-   <br><br>
-   <button class="Buttons"  onclick="save()">Save</button>
-   <h2 class="data" id="save-el"></h2>
- 
-   <!-- <button class="Buttons" id="countdown-btn" onclick="LAPCOUNT()">LAPCOUNT</button>
-  <h3 id="countdown-el"></h3>
-         -->
- 
-         <!-- <input class="Buttons" type="submit" value="Submit" id="submit-btn" onclick="fortytwo()">
--->
+  <h1 class="data">To-Do List</h1>
 
-   <!-- <button class="Buttons" id="user-btn" onclick="user()">Get User</button>
-   <h2 class="data" id="user-el"></h2>
-   <h2 class="data" id="msg-el"></h2> -->
+  <input type="text" id="todo-input" placeholder="Add a task...">
+  <button class="Buttons" onclick="addTodo()">Add</button>
 
+  <ul id="todo-list"></ul>
 
-   <p id="welcome-el"></p>
-   
   <script src="script.js"></script>
-
 </body>
 </html>
