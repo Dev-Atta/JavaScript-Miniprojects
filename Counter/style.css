@@ -6,7 +6,7 @@ body {
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* or whatever height you need */
+    height: 100vh; 
 }
 
 .data {
