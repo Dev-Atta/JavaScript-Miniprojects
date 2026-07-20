@@ -239,3 +239,88 @@
 // welcomeel.innerText = greeting + name;
 
 // welcomeel.innerText += " 👋";
+
+
+// let person = {
+//     name: "Atta",
+//     age: 25,
+//     country: "Pakistan",
+//     greet: function(){
+//         console.log("Hello, my name is " + person.name + " and I am " + person.age + " years old from " + person.country + ".");
+//     }
+// }
+
+// person.greet();
+
+
+// let largest_country = ["Telgu", "India", "USA", "Indonesia", "iran"];
+// largest_country.push("Kambodia");
+// largest_country.pop("Kambodia");
+// for (let i = 0 ; i < largest_country.length; i++) {
+//     //console.log(largest_country[i]);
+// }
+
+
+
+// Unshift() add new elements to the front of array and increases the lenght of Array
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.unshift("Lemon","Pineapple");
+// for (let i = 0 ; i <fruits.length; i++) {
+//     console.log(fruits[i]);
+// }
+
+
+// shift() Removes the first element of Arrau
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.shift();
+// for (let i = 0 ; i <fruits.length; i++) {
+//      console.log(fruits[i]);
+//  }
+
+
+
+// largest_country.shift();          // Removes First Elemnet
+// largest_country.unshift("China");  // Add China To the first
+// largest_country.pop("iran");  // remove iran
+// largest_country.push("Pakistan"); // Append Pakistan to last
+
+// umshift makes the array logner while shift makes arrya shorter
+
+// for (let i = 0 ; i < largest_country.length; i++) {
+//     console.log(largest_country[i]);
+// }
+
+
+
+// let game = ["Rock" , "Paper" , "Scissor"];
+
+// function rand(){
+//     let n = 3;
+//     n = Math.random()*n;
+//     n = Math.floor(n);
+//     return n;
+// }
+
+// function flow() {
+//     let human = "Paper";
+//     let computer = rand();
+    
+//      let computerChoice = game[computer];
+//     if (human === computerChoice) {
+//         console.log("It's a tie!");
+//     } 
+//     else if (
+//         (human === "Rock" && computerChoice === "Scissor") ||
+//         (human === "Paper" && computerChoice === "Rock") ||
+//         (human === "Scissor" && computerChoice === "Paper")
+//     ) {
+//         console.log("Human wins!");
+//     } 
+//     else {
+//         console.log("Computer wins!");
+//     }
+// }
+
+
+// flow();
+// console.log(random());
