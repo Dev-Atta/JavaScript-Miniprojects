@@ -324,3 +324,71 @@
 
 // flow();
 // console.log(random());
+const but = document.getElementById("conatiner");
+
+but.innerHTML = "<button onclick='buy()'> Buy here </button>"
+
+
+// Thanking User after he buy
+
+function buy(){
+    but.innerHTML += "<p> Thanks For Buying </p>";
+}
+
+
+// Create Elment 
+// Set text Content 
+// append content
+
+// const li = document.createElement("li");   // we have taken li html attribute by using create elemnt 
+// li.textContent = array[i]; // Keeping array elements in it
+// ul_el.append(li); // Appending it where we need
+
+
+//    for (let i = 0 ; i < my_lead.length ; i++){
+//      const li = document.createElement("li");
+//      li.textContent = my_lead[i];
+//      ul_el.append(li)
+
+//      // or ul_el.innerHtml() += my_lead[i];
+//     }
+
+// const cannot be reassigned
+// .value is the key to take input from input element in javascript
+// .innerHtml is used to Add Html inside JavScript USING ""
+// ul_el.innerHtml() += my_lead[i];
+
+// Another solution of this problem can be done using
+// create element 
+// Set text contemt
+//  Append To ul
+//      const li = document.createElement("li");
+//      li.textContent = my_lead[i];
+//      ul_el.append(li)
+
+
+
+//for (let i = 0 ; i < my_lead.length ; i++){
+ //   list_items += "<li> <a href=" + my_lead[i] +" target='_blank' >" + my_lead[i] + "</a></li>";
+ 
+ // or sceond way
+ // String Templat
+ 
+// list_items += `
+// <li>
+// <a href="${my_lead[i]}" target="_blank">${my_lead[i]}
+// </a>
+// </li>`;
+ 
+
+
+
+// Template stings
+
+
+// const recpient = "John";
+
+// const email = "Hey " + recpient + "! How is It going? Cheers Per"
+
+// // in template String
+// const email = 'Hey ${recpient}! How is It going? Cheers Per'
