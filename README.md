@@ -1,6 +1,6 @@
 # Practice Repo
 
-This Repo Holds all of the Practicing cores of html/css amd mostly JavScript
+This Repo Holds all of the Practicing cores of html/css amd mostly JavaScript
 
 
 
