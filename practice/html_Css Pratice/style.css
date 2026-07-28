@@ -1,0 +1,243 @@
+
+/* SLECT THE TAG AND THEN APPLY STYLES TO IT*/
+/*
+body{
+    background-color: black;
+    color: white;
+}
+ */
+/*
+p {
+    background-color: rgb(1, 77, 64);
+}
+*/
+/* Ddefining an Id for an Element/tag Help us to target One specific element/tag and apply styles to it */
+/*  Id is defined by using # sign before the name of the Id */
+
+/*
+#testid{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+*/
+
+/* Defining a class for an Element/tag Help us to target groups of elements/tags and apply styles to it */
+/*  class is defined by using . sign before the name of the class */
+/*
+.testclass{
+    background-color: rgb(71, 36, 36);
+    color: rgb(255, 255, 255);
+}
+*/
+/*  we can also target a specific tag with a specific class and apply styles to it
+Other tag defiend classes will not be affected */
+/*
+h1.testclass{
+    background-color: rgb(219, 212, 212);
+    color: rgb(27, 0, 32);
+}
+*/
+
+/* Universal selector is used to target all the elements/tags in the HTML document and apply styles to it */
+/* it changes Everything someone want to see,it will only affect the tags which are not already defined in the CSS file */  
+/*
+*{
+    font-family: Arial;
+    font-size: 20px;
+}
+*/
+/* Using comma we can taget muultiple tags; like h1,p {----) */    
+
+
+
+/* pangee start from here */
+
+
+body{
+    opacity: 1;    /* Transparency */
+   /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTQ6wyi5ufjpI0eNGRk047bbaeKR9JAskRf3am4h0zTw&s=10");
+    background-repeat: no-repeat;
+    background-position: left top; */
+}
+
+.testclass{
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    margin-left: 1px; /* Create space form left */
+    /* can also in in  percentage like 10% */
+    margin : 100px 100px 100px 100px; /* top right bottom left */
+
+
+
+    /* bORDER */
+    border-style : solid;  /* solid, dotted, dashed, double, groove, ridge, inset, outset, none  , top right bottom left  */
+    border-width : 2px; /* Thickness of the border, top right bottom left  */
+    border-color : rgb(88, 0, 0); /* Color of the border, top right bottom left  */
+  /*  border-left : 10px dashed blue; */
+
+    border-radius: 20px ; /* Roundness of the border, top right bottom left  */
+
+    /* Padding */
+    padding : 20px 0px 20px 20px; /* top right bottom left  */
+        
+}
+
+/*height and width of the element */
+h1 {
+    height: 50%; /* Height of the element */
+    width: 50%; /* Width of the element */
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+/* outine */
+pre {
+    outline-style: solid;  /* solid, dotted, dashed, double, groove, ridge, inset, outset, none  , top right bottom left  */
+    outline-width: 2px; /* Thickness of the border, top right bottom left  */
+    outline-color: rgb(88, 0, 0); /* Color of the border, top right bottom left  */
+    outline-offset: 10px; /* Offset of the border from the element */
+}
+
+
+/* text decoration */
+h2, p {
+    color: rgb(0, 0, 0);
+    text-align: right; /* text-align: left, right, center, justify  */
+    vertical-align: top; /* vertical-align: top, middle, bottom  */
+
+    text-decoration: underline; /* text-decoration: none, underline, overline, line-through  */
+    text-decoration-color: rgb(255, 0, 0); /* text-decoration-color: color  */
+    text-decoration-style: wavy; /* text-decoration-style: solid, double, dotted, dashed, wavy  */
+    text-decoration-thickness: 5px; /* text-decoration-thickness: auto, from-font, length  */
+    text-decoration : overline purple solid 5px; /* decoration color, style, thickness */
+    
+    text-transform: uppercase; /* text-transform: none, capitalize, uppercase, lowercase  */
+    text-indent: 50px; /* text-indent: length, percentage  */
+    font-family: Arial, sans-serif; /* font-family: font-family, generic-family  */
+    fornt-style: normal; /* font-style: normal, italic, oblique  */
+    font-weight: bold; /* font-weight: normal, bold, bolder, lighter, */
+    font-size: 20px; /* font-size: length, percentage, em, rem, vw, vh  */
+
+}
+
+
+
+a {
+    text-decoration: none; /* nounderline On link  */
+    color: rgb(255, 0, 191); /* color of the link */
+}
+
+/* Table things */
+
+table, td {
+    visibility: visible; /* visibility of the table, visible, hidden, none */
+   /* Display: none  ; /* display of the table, Display: block, none */
+    width: 50px; /* width of the table */
+    border: 1px solid black; /* border of the table */
+    border-collapse: collapse; /* collapse the border */
+    padding: 10px; /* padding of the table */
+    text-align: center; /* text-align of the table */
+   
+    color: rgb(0, 0, 0); /* color of the text in the table */
+}
+
+th {
+    height : 50px; /* height of the table header */
+}
+
+td {
+    text-align: left; /* text-align of the table data */
+    padding: 10px; /* padding of the table data */
+}
+
+td:hover {
+    background-color: rgb(25, 119, 12); /* background-color of the table data on hover (when mouse go on it) */
+}
+
+tr:hover {
+    background-color: rgb(140, 0, 255); /* background-color of the table row on hover (when mouse go on it) */
+}
+
+
+/* Combinators in css */
+/* Combinators are used to select elements based on their relationship with other elements. There are four types of combinators in CSS: descendant, child, adjacent sibling, and general sibling. */
+
+h1 b {
+    background-color: rgb(159, 177, 0); /* background-color of the b tag inside h1 */
+}
+ 
+
+h1 + b {
+    background-color: rgb(0, 255, 255); /* background-color of the b tag that is immediately after h1 */
+}
+
+h1 ~ b {
+    background-color: rgb(255, 0, 255); /* background-color of the b tag that is a sibling of h1, i.e. ALL Many B AFTER H1  */
+}
+
+
+
+/* Designing the buttons and dropdown menu */
+
+.dropdownbutton {
+    background-color: rgb(131, 0, 0);
+    color: rgb(255, 255, 255);
+    padding : 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border: none;  
+    cursor: pointer;  /* change Cursor to pointer(hand) when hover on the button */
+}
+
+/* Dropdown menu */
+
+.dropdown {
+    position: relative; /* position of the dropdown menu */
+    display: inline-block; /* display of the dropdown menu */
+}
+
+
+
+
+.buttonmenu {
+    display: none; /* hide the dropdown menu */
+    position: absolute; /* position the dropdown menu */
+    background-color: rgb(0, 0, 0); /* background-color of the dropdown menu */
+    min-height: 100px; /* minimum height of the dropdown menu */
+    min-width: 160px; /* minimum width of the dropdown menu */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* box-shadow of the dropdown menu */
+}
+
+
+.buttonmenu a {
+    color: rgb(255, 255, 255); /* color of the links in the dropdown menu */
+    padding: 12px 16px; /* padding of the links in the dropdown menu */
+    text-decoration: none; /* removes the Link underline */
+    display: block; /* display of the links in the dropdown menu */
+}
+
+
+.buttonmenu a:hover {
+    background-color: rgb(187, 255, 0); /* background-color of the links in the dropdown menu on hover */
+}
+
+.dropdown:hover .buttonmenu {
+    display: block; /* show the dropdown menu on hover */
+}
+
+
+/* Atttribute Slector */
+/* Attribute selectors are used to select elements based on their attributes and attribute values. There are several
+*/
+
+div[class="testclass"] {
+    background-color: rgb(0, 255, 255); /* background-color of the div with title attribute */
+}
+
