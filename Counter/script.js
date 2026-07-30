@@ -78,7 +78,7 @@ function save() {
 
 // welcomeel.innerText = greeting + name;
 
-// welcomeel.innerText += " 👋";
+// welcomeel.innerText += " ";
 
 
 
