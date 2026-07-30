@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Keyboard Test</title>
+        <style>
+            body {
+                background-color: black;
+                color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <div id = "keyhere">
+            <div class="msg">Press any Key to check</div>
+        </div>
+    </body>
+
+    <script>
+       let keys = document.getElementById("keyhere");
+
+      addEventListener("keydown", function(e){
+      keys.innerHTML = `<h1>Key is: ${e.key} </h1>` ;
+     });
+    </script>
+</html>
+
+
+// To detect keyboard keys, you listen for "keydown" (or "keyup") on document (or window), and the event object gives you details about which key was pressed.
+// event.key, event.code, event.keyCode is used To get the key inside keydown Event
