@@ -175,3 +175,23 @@ fetch("https://api.github.com/users/dev-atta")
 // so there are two ways to handle resolve and reject of promisese
 // first is using try and catch in async function 
 // Other is directly using .then() .catch() with promise
+
+// The Fetch API provides an interface for fetching resources (including across the network).
+//  It is a more powerful and flexible replacement for XMLHttpRequest.
+// Fetch is BASICALLY A REPLACEMENT OF XMLHttpRequest()
+
+
+// ERROR oNLY comes When the browser wanot able To do the request
+// But Error 404 comming from somewhere is a Responce
+
+
+// fetch("url" , {header, object or anything})
+
+// THERE IS A queue named Micro task queue whcih is made when 
+// fetch() is called 
+// fetch() queue is In priority
+
+
+// fecth works in two parts
+// Memory acquring
+// And Web api request
