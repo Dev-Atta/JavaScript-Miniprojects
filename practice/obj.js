@@ -80,3 +80,32 @@
 
 // Object.setPrototypeOf(teachingsupport, teaching)
 // // teachingsupport access the PROPERTIRES of teaching
+
+// .call holds refrence For us
+
+// declearing class
+
+// class  user {
+//     constructor(name, age, password){
+//         this.name = name;
+//         this.age = age;
+//         this.password = password;
+//     }
+
+//     encrypted_passwords(){
+//          return `encrypted password is ${this.password}abc `;
+//     }
+// }
+
+
+// const someone = new user("atta", 19, "1234");
+// console.log(someone.encrypted_passwords());
+
+// super() is used to call the constructor of the parent class.
+
+
+// static methods are called on the class itself, not on instances of the class. They are often used for utility functions that are related to the class but don't require an instance to operate.
+// it restricts the method to be called only on the class itself, not on instances of the class. This is useful for utility functions that are related to the class but don't require an instance to operate.
+ 
+// .bind() creates a new function with this permanently locked to whatever value you specify — 
+// no matter how or where that new function gets called later.
